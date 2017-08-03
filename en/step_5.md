@@ -28,7 +28,7 @@ My zombie map
     var zombie_map;
     function initMap() {
 
-        var zombie_map = new google.maps.Map(document.getElementById('zombie_map'), {
+            zombie_map = new google.maps.Map(document.getElementById('zombie_map'), {
             zoom: 10,
             center: {lat: 52.206727, lng: 0.124450}
         });
