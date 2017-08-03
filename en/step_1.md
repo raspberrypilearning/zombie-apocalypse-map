@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Create a real map of your local area and mark on it the locations of supplies, secret bases and even the zombies themselves!
 
 ### What you will make
 
@@ -13,6 +13,8 @@ Add something here to showcase here, for example:
 Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
 
 ### What you will learn
+
+You will learn how to display a Google map on a web page, how to add an icon to the map when you click on a location and how to add a description of each location.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 

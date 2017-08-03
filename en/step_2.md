@@ -2,12 +2,15 @@
 
 ### Hardware
 
-+ List hardware here, or delete section.
++ A computer with an internet connection
++ Smart phone with GPS capability
 
 ### Software
 
-+ List software here, or delete section.
++ Internet browser (e.g. Google Chrome or Safari)
++ Text editor (e.g. Notepad or Atom)
 
 ### Additional Resources
 
-+ List additional resources, or delete section.
++ Emoji images - you can either make your own or use ones from [Wikimedia commons](https://commons.wikimedia.org/wiki/Emoji)
++ A Google account (please [check whether you are old enough to create an account](https://support.google.com/accounts/answer/1350409?hl=en) before beginning this project)
