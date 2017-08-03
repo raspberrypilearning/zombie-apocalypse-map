@@ -1,10 +1,12 @@
 ## Create a web page to display the map
 
-+ You will display your zombie map on a web page. Create and save a web page called `index.html`
++ You will display your zombie map on a web page. Create and save a web page called `index.html`. You will need to use a text editor on your computer to do this rather than using an online HTML editor.
 
 [[[generic-html-create-and-save]]]
 
-+ Go back to your index.html file and find the <head> tag in your code. Position your cursor on the line after this tag and add the following code:
++ Make sure you have the `index.html` file open in both your text editor and your internet browser. When you make changes to the code in the text editor, save the file and then refresh the internet browser to see your changes.
+
++ In the text editor, find the `<head>` tag in your code. On the line after this tag, add the following code:
 
 ```html
 <style>
@@ -18,7 +20,7 @@
 
 This is some CSS code which will tell the map to take up the whole width of your screen, and be 400px high. You can change these values to make the map larger or smaller if you like.
 
-+ Locate the `<body>` tag. After this tag, add the following code to create a <div> (an invisible box) where your map will eventually appear
++ Locate the `<body>` tag in your code. On the line after this tag, add the following code to create a <div> (an invisible box) where your map will eventually appear
 
 ```html
 My Google map
