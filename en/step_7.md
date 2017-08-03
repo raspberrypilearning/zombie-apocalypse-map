@@ -42,7 +42,7 @@ function place_marker(location){
 }
 ```
 
-+ Finally, instead of putting the marker at the specific latitude and longitude, we want to put it at the `location` that was clicked upon. Change one more thing in your `place_marker()` function to tell the code to put the marker at the clicked location rather than always on Cambridge, UK.
++ Finally, instead of putting the marker at the specific latitude and longitude, we want to put it at the `location` that was clicked upon. Change one more thing inside your `place_marker()` function to put the marker at the clicked location rather than always on Cambridge, UK.
 
 --- hints ---
 --- hint ---
@@ -60,3 +60,5 @@ Replace the fixed latitude and longitude code with the variable containing the l
 --- /hints ---
 
 + Save and refresh the page. Test your map - does a marker now appear anywhere you click on the map?
+
+![Cambridge with lots of markers](images/cambridge-lots-of-markers.png)
