@@ -52,27 +52,9 @@ var emoji = document.getElementById('***').value;
 ```
 However, you need to replace *** with the ID of the `<select>` element, to tell the code where to get the data from.
 
-Add your code here:
+Add this line of code here:
 ![Add your code here](images/add-code-here.png)
 
---- hints ---
-
---- hint ---
-```javascript
-
-function place_marker(location){
-    var emoji = document.getElementById('icon_to_use').value;
-    var marker = new google.maps.Marker({
-      position: location,
-      map: zombie_map
-    });
-}
-
-```
---- /hint ---
-
---- /hints ---
-
-+ Finally, in the `place_marker()` function, add a comma at the end of the line `map: zombie_map` and add the line `icon: emoji` to set the displayed icon to be whichever emoji was selected in the drop down at the time.
++ Finally, add a comma at the end of the line `map: zombie_map`, then add the line `icon: emoji` below it to set the displayed icon to be whichever emoji was selected in the drop down at the time.
 
 ![All the icons](images/zombies-oh-my.png)
