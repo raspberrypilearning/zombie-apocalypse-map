@@ -1,8 +1,19 @@
 ## Place a marker
 
-+ Add a marker to your map. Put the marker code after the ending `}` of the `initMap()` function.
++ Add a marker to your map.
 
 [[[generic-api-google-maps-marker]]]
+
+--- hints ---
+--- hint ---
+Put the marker code on a blank line after the ending `}` of the `initMap()` function.
+--- /hint ---
+
+--- hint ---
+You will need to make sure that the marker has the correct map set. The map in the example is called `mymap` - what is the map we have created called?
+--- /hint ---
+
+--- /hints ---
 
 At the moment our marker just appears at a fixed location. To make it easier to construct the map, let's add some code to only create a marker when we click on a position on the map.
 
