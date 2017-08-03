@@ -6,7 +6,7 @@
 
 --- hints ---
 --- hint ---
-Put the marker code on a blank line after the ending `}` of the `initMap()` function.
+Put the marker code on a blank line before the ending `}` of the `initMap()` function.
 --- /hint ---
 
 --- hint ---
@@ -14,6 +14,8 @@ You will need to make sure that the marker has the correct map set. The map in t
 --- /hint ---
 
 --- /hints ---
+
+![Cambridge with a marker on it](images/cambridge-marker.png)
 
 At the moment our marker just appears at a fixed location. To make it easier to construct the map, let's add some code to only create a marker when we click on a position on the map.
 
