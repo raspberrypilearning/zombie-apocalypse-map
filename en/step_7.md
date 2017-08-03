@@ -23,15 +23,15 @@ zombie_map.addListener('click', function(e) {
 });
 ```
 
-We need to pass this data across to the `place_marker` function so that it can be used to position the marker. An item of data passed into a function is called an **argument**.
+We need to pass the location data across to the `place_marker` function so that it can be used to position the marker. An item of data passed into a function is called an **argument**.
 
-+ Add `location` as an **argument** on the line of code where we call the `place_marker()` function. It should now look like this:
++ Add `location` as an **argument** to the `place_marker()` function. Arguments go inside the brackets. Your code should now look like this:
 
 ```javascript
 place_marker(location);
 ```
 
-+ Now locate where you **define** the `place_marker()` function. This is the line of code which begins `function place_marker(){ ...`. Also add the `location` inside the brackets here, so that it now looks like this:
++ Now locate where you **define** the `place_marker()` function. This is the line of code which begins `function place_marker()`. Add `location` inside the brackets here, so that it now looks like this:
 
 ```javascript
 function place_marker(location){
