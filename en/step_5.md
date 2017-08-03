@@ -5,14 +5,14 @@
 ```html
 <style>
 #map {
-    width: 100%;
+    width: 600px;
     height: 400px;
     background-color: grey;
 }
 </style>
 ```
 
-This is some CSS code which will tell the map to take up the whole width of your screen, and be 400px high. You can change these values to make the map larger or smaller if you like.
+This is some CSS code which will tell the map to be 600px wide and 400px high. You can change these values to make the map larger or smaller if you like. You will see the colour grey if your map doesn't load properly.
 
 + Locate the `<body>` tag in your code. On a blank line after this tag, add the following code to create a `<div>` (an invisible box) where your map will eventually appear
 
@@ -28,11 +28,9 @@ My Google map
 
     function initMap() {
 
-        var Cambridge = {lat: 52.206727, lng: 0.124450};
-
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
-            center: Cambridge
+            center: {lat: 52.206727, lng: 0.124450}
         });
     }
 </script>
