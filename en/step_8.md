@@ -4,7 +4,7 @@ Rather than always having a red marker, it would be good to be able to place emo
 
 To do this, you will need some emojis. You could draw your own emojis if you are feeling creative, or there are plenty to choose from on [Wikimedia commons](https://commons.wikimedia.org/wiki/Emoji). Save your emojis as 32px x 32px PNG files for best results.
 
-Here are the emojis we will use in this guide:
+Here are the emojis we will use in this guide, but you can use as many different emojis as you like.
 ![Hospital](images/hospital.png) ![Weapons](images/weapons.png) ![Zombie](images/zombie.png)
 
 + Decide on the emojis you will use and save the PNG image files into the same folder as your `index.html` file. Make sure the file names of your emoji pictures do not contain any spaces.
@@ -35,23 +35,25 @@ Select an emoji
 
 --- hints ---
 --- hint ---
-Add another line that looks like this `<option value="hospital.png">Hospital</option>` for each emoji
+Add another line that looks like this for each emoji
+`<option value="hospital.png">Hospital</option>`
 --- /hint ---
 
 --- hint ---
-Make sure that you set the correct file name of each emoji picture as the `value` in the option.
+Make sure that you set the correct file name of each emoji picture as the `value` in the option, and that each emoji picture is saved in the same folder as your `index.html` page.
 --- /hint ---
 
 --- /hints ---
 
-+ Now let's tell the map to display the chosen emoji instead of the red marker when we click the map. Here is a line of code which will get the currently selected emoji. However, you need to replace *** with the ID of the `<select>` element, to tell the code where to get the data from:
++ Now let's tell the map to display the chosen emoji instead of the red marker when we click the map. Here is a line of code which will get the currently selected emoji.
 
 ```javascript
 var emoji = document.getElementById('***').value;
 ```
+However, you need to replace *** with the ID of the `<select>` element, to tell the code where to get the data from.
 
-+ Locate the `place_marker()` function and add the finished line of code on a blank line before the line beginning `var marker`.
-
+Add your code here:
+![Add your code here](images/add-code-here.png)
 
 --- hints ---
 
