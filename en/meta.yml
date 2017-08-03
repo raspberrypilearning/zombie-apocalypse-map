@@ -13,6 +13,6 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Obtain a Google Maps API key
   - title: Create a web page
+  - title: Obtain a Google Maps API key
   - title: Display the map
