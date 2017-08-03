@@ -4,7 +4,7 @@
 
 [[[generic-html-create-and-save]]]
 
-+ Make sure you have the `index.html` file open in both your text editor and your internet browser. When you make changes to the code in the text editor, save the file and then refresh the internet browser to see your changes.
+[[[generic-html-basic-page]]]
 
 + In the text editor, find the `<head>` tag in your code. On the line after this tag, add the following code:
 
@@ -20,7 +20,7 @@
 
 This is some CSS code which will tell the map to take up the whole width of your screen, and be 400px high. You can change these values to make the map larger or smaller if you like.
 
-+ Locate the `<body>` tag in your code. On the line after this tag, add the following code to create a <div> (an invisible box) where your map will eventually appear
++ Locate the `<body>` tag in your code. On the line after this tag, add the following code to create a `<div>` (an invisible box) where your map will eventually appear
 
 ```html
 My Google map
@@ -44,4 +44,4 @@ My Google map
 </script>
 ```
 
-+ Save your code and refresh your internet browser. You should see a Google map displayed with the centre of the map on Cambridge, UK.
++ Save your code and refresh your internet browser. You should see a Google map displayed with the centre of the map on Cambridge, UK (the location of Raspberry Pi HQ!)
