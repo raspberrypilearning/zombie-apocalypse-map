@@ -72,3 +72,5 @@ function place_marker(location){
 --- /hints ---
 
 + Finally, in the `place_marker()` function, add a comma at the end of the line `map: zombie_map` and add the line `icon: emoji` to set the displayed icon to be whichever emoji was selected in the drop down at the time.
+
+![All the icons](images/zombies-oh-my.png)
