@@ -1,6 +1,6 @@
 ## Place a marker
 
-+ Add a marker to your map
++ Add a marker to your map. Put the marker code after the ending `}` of the `initMap()` function.
 
 [[[generic-api-google-maps-marker]]]
 
@@ -10,12 +10,11 @@ At the moment our marker just appears at a fixed location. To make it easier to 
 
 [[[generic-javascript-create-a-function]]]
 
-+ Now we will add some code to "listen" for clicks on the map. When a click is detected, we will call the function we just created to place a marker. Locate the `initMap()` function and add the following code inside the function
++ Now we will add some code to "listen" for clicks on the map. When a click is detected, we will call the function we just created to place a marker. Locate the `initMap()` function and add the following code inside the function - this means after the other code in the function but before the closing `}`.
 
 ```javascript
-// Listen for clicks and when clicked, place a marker there
-map.addListener('click', function(e) {
+zombie_map.addListener('click', function(e) {
   latlng = e.latLng;
-  place_marker(latlng);
+  place_marker();
 });
 ```

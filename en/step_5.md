@@ -4,7 +4,7 @@
 
 ```html
 <style>
-#map {
+#zombie_map {
     width: 600px;
     height: 400px;
     background-color: grey;
@@ -17,18 +17,18 @@ This is some CSS code which will tell the map to be 600px wide and 400px high. Y
 + Locate the `<body>` tag in your code. On a blank line after this tag, add the following code to create a `<div>` (an invisible box) where your map will eventually appear
 
 ```html
-My Google map
-<div id="map"></div>
+My zombie map
+<div id="zombie_map"></div>
 ```
 
 + Immediately underneath the `<div>` code you just added, add the following code to create the map:
 
 ```html
 <script>
-
+    var zombie_map;
     function initMap() {
 
-        var map = new google.maps.Map(document.getElementById('map'), {
+        var zombie_map = new google.maps.Map(document.getElementById('zombie_map'), {
             zoom: 10,
             center: {lat: 52.206727, lng: 0.124450}
         });
