@@ -1,11 +1,13 @@
-## Create a web page
+## Obtain a Google Maps API key
 
-+ You will display your zombie map on a web page. Create and save a web page called `index.html`. You will need to use a text editor on your computer to do this rather than using an online HTML editor.
++ To be able to display a map, you will need to obtain a Google Maps API key
 
-[[[generic-html-create-and-save]]]
+[[[generic-api-google-maps-key]]]
 
-+ Inside the file, add tags to create a basic HTML page.
++ Make sure you paste in the code to use the API key into your page, just before the `</body>` tag, and that you substitute in your actual API key for the words `YOUR_API_KEY`.
 
-[[[generic-html-basic-page]]]
-
-+ Locate the tag `</body>`. On a blank line immediately **before** this tag, add the following code 
+```html
+<script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+ </script>
+ ```
