@@ -67,6 +67,6 @@ A marker will appear on the map, but no matter where you click the marker will a
 title: Why does this happen?
 ---
 
-Inside the `place_marker()` function, we specify the longitude and latitude of the marker, so it is the same every time. We need to be able to pass the longitude and latitude values of where you clicked on the map into the function so that we can place the marker at that position rather than the same position every time.
+Inside the `place_marker()` function, we specify the longitude and latitude of the marker, so it is the same every time. We need to be able to pass the longitude and latitude values of where you clicked on the map into the function so that we can place the marker at the position that was clicked, rather than a specific position.
 
 --- /collapse ---
