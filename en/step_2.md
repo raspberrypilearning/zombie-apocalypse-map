@@ -3,7 +3,6 @@
 ### Hardware
 
 + A computer with an internet connection
-+ Smart phone with GPS capability
 
 ### Software
 
