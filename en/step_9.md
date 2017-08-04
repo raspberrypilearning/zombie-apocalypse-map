@@ -8,7 +8,7 @@ Once you've created your map with the nifty map creator you just build, you want
 
 The JavaScript console is actually used for debugging your programs. If they aren't working, you can check the console to see any error messages that might come up. You can also log to the console yourself if you want to see the value of a variable at a particular point in your program, or check whether your program is running a particular piece of code.
 
-We're going to use the console log to keep track of the latitude and longitude of each point, and what was at the point - zombie, hospital or weapons.
+We're going to cheat and use the console log to keep track of the latitude and longitude of each point, and what was at the point - zombie, hospital or weapons.
 
 + We need to add some code so that when we place a marker, we also log its location and type to the console. We will add this code inside the `place_marker()` function.
 
@@ -36,7 +36,9 @@ You will need to **concatenate** the values together by using the `+` to join th
 --- /hint ---
 
 --- hint ---
-To add a space between the values you will also need to concatenate in a string containing a space - `" "` 
+To add a space between the values you will also need to concatenate in a string containing a space - `" "`
 --- /hint ---
 
 --- /hints ---
+
++ Now that we have this data, we can save it and use it to recreate the map - a crucial element of our zombie survival plan.
