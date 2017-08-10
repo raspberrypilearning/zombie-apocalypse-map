@@ -50,7 +50,7 @@ Make sure that you set the correct file name of each emoji picture as the `value
 ```javascript
 var emoji = document.getElementById('***').value;
 ```
-However, you need to replace *** with the ID of the `<select>` element, to tell the code where to get the data from.
+However, you need to replace *** with the **ID of the `<select>` element**, to tell the code where to get the data from.
 
 Add this line of code here:
 ![Add your code here](images/add-code-here.png)
