@@ -51,7 +51,7 @@ zombie_map.addListener('click', function(e) {
 });
 ```
 
-+ Save your code and click on the map.
++ Save your code and **click on the map** to test whether a red marker appears
 
 --- collapse ---
 ---
