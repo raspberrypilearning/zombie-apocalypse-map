@@ -43,7 +43,7 @@ function place_marker(){
 
 --- /hints ---
 
-+ Now we will add some code to "listen" for clicks on the map. When a click is detected, we will call the function we just created to place a marker. Locate the `initMap()` function and add the following code inside the function - this means after the other code in the function but before the closing `}`.
++ Now we will add some code to "listen" for clicks on the map. When a click is detected, we will call the function we just created to place a marker at the location of the click. Locate the `initMap()` function and add the following code inside the function - this means after the other code in the function but before the closing `}`.
 
 ```javascript
 zombie_map.addListener('click', function(e) {
