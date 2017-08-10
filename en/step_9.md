@@ -1,6 +1,6 @@
 ## Log your locations
 
-Once you've created your map with the nifty map creator you just build, you want to be able to keep it and use it in the event of a zombie apocalypse. We need to be able to log the locations you chose and what was at each location, and for this we'll use the JavaScript console log.
+Once you've created your map with the nifty map creator you just built, you want to be able to keep it and use it in the event of a zombie apocalypse. We need to be able to log the locations you chose and what was at each location, and for this we'll use the JavaScript console log.
 
 + Open the JavaScript console in your web browser
 
@@ -10,7 +10,7 @@ The JavaScript console is actually used for debugging your programs. If they are
 
 We're going to cheat and use the console log to keep track of the latitude and longitude of each point, and what was at the point - zombie, hospital or weapons.
 
-+ We need to add some code so that when we place a marker, we also log its location and type to the console. We will add this code inside the `place_marker()` function.
++ We need to add some code so that when a marker is placed, its location and type are logged to the console. Add this code inside the `place_marker()` function.
 
 ![Add code to log to the console](images/console-log.png)
 
@@ -26,18 +26,24 @@ Add this code, save the file and then check that each time you click on the map,
 
 ![Logged values](images/logged-values.png)
 
+To do this you will need to **concatenate** together the strings `location.lat()`, `location.lng()` and `emoji`, with a single space in between each.
+
+[[[generic-javascript-concatenation]]]
+
 --- hints ---
+
 --- hint ---
-You can get the latitude value within the `place_marker()` function as `location.lat()` and the longitude value as `location.lng()`
+To add a space between the values you will also need to concatenate in a string containing a space which looks like this - `" "`.
 --- /hint ---
 
 --- hint ---
-You will need to **concatenate** the values together by using the `+` to join them. For example if I wanted to concatenate the strings `"Hello"` and `"world"` I would write `"Hello" + "world"`.
+Here is how your finished code should look:
+
+```JavaScript
+console.log(location.lat() + " " + location.lng() + " " + emoji);
+```
 --- /hint ---
 
---- hint ---
-To add a space between the values you will also need to concatenate in a string containing a space - `" "`
---- /hint ---
 
 --- /hints ---
 
