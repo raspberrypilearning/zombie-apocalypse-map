@@ -1,6 +1,6 @@
 ## Mark where you click
 
-At the moment our marker appears when you click the map, but it always appears in the same place. Remember the code we added in the last step to listen out for clicks on the map?
+At the moment the marker appears when you click the map, but it always appears in the same place. Remember the code we already added in the last step to listen out for clicks on the map:
 
 ```javascript
 zombie_map.addListener('click', function(e) {
@@ -46,15 +46,26 @@ function place_marker(location){
 
 --- hints ---
 --- hint ---
-Which line of code contains the fixed position of the marker that is always placed on Cambridge, UK?
+Which part of the code contains the fixed position of the marker that is always placed on Cambridge, UK?
 --- /hint ---
 
 --- hint ---
-Which variable contains the data of the location that was clicked on?
+What is the name of the variable containing the location data we passed to the `place_marker()` function as an argument?
 --- /hint ---
 
 --- hint ---
-Replace the fixed latitude and longitude code with the variable containing the location that was clicked on.
+Replace the fixed latitude and longitude (the part beginning and ending with braces `{ }`) with the name of the variable containing the location that was clicked on.
+--- /hint ---
+
+--- hint ---
+Here is how your finished code should look:
+
+```javascript
+var marker = new google.maps.Marker({
+  position: location,
+  map: zombie_map
+});
+```
 --- /hint ---
 
 --- /hints ---
