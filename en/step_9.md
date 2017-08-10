@@ -26,7 +26,7 @@ Add this code, save the file and then check that each time you click on the map,
 
 ![Logged values](images/logged-values.png)
 
-To do this you will need to **concatenate** together the strings `location.lat()`, `location.lng()` and `emoji`, with a single space in between each.
+To do this you will need to **concatenate** together these variables which contain strings - `location.lat()`, `location.lng()` and `emoji` - with a literal string containing a single space in between each.
 
 [[[generic-javascript-concatenation]]]
 
