@@ -1,0 +1,23 @@
+title: Zombie apocalypse survival map
+hero_image: images/banner.png
+description: Create and navigate a GPS map to help you survive the zombie apocalypse
+theme: green # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 # possible values: 1, 2 or 3
+listed: false
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: "games"
+technologies: "html/css"
+site_areas:
+steps:
+  - title: Introduction
+  - title: What you will need
+  - title: Create a web page
+  - title: Obtain a Google Maps API key
+  - title: Display the map
+  - title: Place a marker
+  - title: Mark where you click
+  - title: Choose your icon
+  - title: Log your locations
+  - title: "Challenge: Prepare for zombies"
