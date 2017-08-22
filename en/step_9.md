@@ -14,7 +14,7 @@ We're going to cheat and use the console log to keep track of the latitude and l
 
 ![Add code to log to the console](images/console-log.png)
 
-+ Here is some code to log a message to the console:
++ Here is some code that will make the console log a message:
 
 ```JavaScript
 console.log("You clicked the map");
