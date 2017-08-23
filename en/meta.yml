@@ -5,7 +5,7 @@ theme: green # possible values: blue, green, navy, orange, red, turquoise, viole
 duration: 1 # possible values: 1, 2 or 3
 listed: false
 ingredient: false
-copyedit: false
+copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: "games"
 technologies: "html/css"
