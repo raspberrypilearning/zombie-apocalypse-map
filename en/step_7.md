@@ -1,6 +1,6 @@
 ## Mark where you click
 
-At the moment the marker appears when you click the map, but it always appears in the same place. Remember the code we already added in the last step to listen out for clicks on the map:
+At the moment, the marker appears when you click the map, but it always appears in the same place. Remember the code we already added in the last step to listen for the map being clicked:
 
 ```javascript
 zombie_map.addListener('click', function(e) {
@@ -8,13 +8,13 @@ zombie_map.addListener('click', function(e) {
 });
 ```
 
-Did you notice the `function(e)` part? The `e` stands for **event**, and clicking on the map is an event. The event records the longitude and latitude of the location that was clicked, and we can access them like this:
+Did you notice the `function(e)` part? The `e` stands for **event**, and clicking on the map is an event. The event records the longitude and latitude of the location that was clicked, and we can access that information like this:
 
 ```javascript
 var location = e.latLng;
 ```
 
-+ Add this line of code to find the location inside your **listener** code, so that the code now looks like this:
++ Add this line of code to find the location inside your listener code, so that the code now looks like this:
 
 ```javascript
 zombie_map.addListener('click', function(e) {
@@ -23,7 +23,7 @@ zombie_map.addListener('click', function(e) {
 });
 ```
 
-We need to pass the location data across to the `place_marker` function so that it can be used to position the marker. An item of data passed into a function is called an **argument**.
+We need to pass the location data to the `place_marker` function so that it can be used to position the marker. An item of data passed into a function is called an **argument**.
 
 + Add `location` as an **argument** to the `place_marker()` function. Arguments go inside the brackets. Your code should now look like this:
 
@@ -31,7 +31,7 @@ We need to pass the location data across to the `place_marker` function so that 
 place_marker(location);
 ```
 
-+ Now locate where you **define** the `place_marker()` function. This is the line of code which begins `function place_marker()`. Add `location` inside the brackets here, so that it now looks like this:
++ Now find where you define the `place_marker()` function. This is the line of code which begins `function place_marker()`. Add `location` inside the brackets here, like this:
 
 ```javascript
 function place_marker(location){
@@ -42,7 +42,7 @@ function place_marker(location){
 }
 ```
 
-+ Finally, instead of putting the marker at the specific latitude and longitude, we want to put it at the `location` that was clicked upon. Change one more thing inside your `place_marker()` function to put the marker at the clicked location rather than always on Cambridge, UK.
++ Finally, instead of putting the marker at the specific latitude and longitude, we want to put it at the `location` that was clicked on. Change one more thing inside your `place_marker()` function to put the marker at the clicked location, rather than always on Cambridge, UK.
 
 --- hints ---
 --- hint ---
@@ -54,7 +54,7 @@ What is the name of the variable containing the location data we passed to the `
 --- /hint ---
 
 --- hint ---
-Replace the fixed latitude and longitude (the part beginning and ending with braces `{ }`) with the name of the variable containing the location that was clicked on.
+Replace the fixed latitude and longitude (the part beginning and ending with braces `{ }`) with the name of the variable containing the longitude and latitude of the clicked location.
 --- /hint ---
 
 --- hint ---
@@ -70,6 +70,6 @@ var marker = new google.maps.Marker({
 
 --- /hints ---
 
-+ Save and refresh the page. Test your map - does a marker now appear anywhere you click on the map?
++ Save the file and refresh the page. Test your map: does a marker now appear anywhere you click on the map?
 
 ![Cambridge with lots of markers](images/cambridge-lots-of-markers.png)

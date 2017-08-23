@@ -1,6 +1,6 @@
 ## Obtain a Google Maps API key
 
-+ To be able to display a map, you will need to obtain a Google Maps API key
++ To be able to display a map, you will need to obtain a Google Maps API key.
 
 [[[generic-api-google-maps-key]]]
 
