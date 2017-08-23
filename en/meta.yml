@@ -2,14 +2,14 @@ title: Zombie apocalypse survival map
 hero_image: images/banner.png
 description: Create and navigate a GPS map to help you survive the zombie apocalypse
 theme: green # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1 # possible values: 1, 2 or 3
+duration: 2 # possible values: 1, 2 or 3
 listed: false
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: "games"
 technologies: "html/css"
-site_areas:
+site_areas: ""
 steps:
   - title: Introduction
   - title: What you will need
@@ -20,4 +20,4 @@ steps:
   - title: Mark where you click
   - title: Choose your icon
   - title: Log your locations
-  - title: Challenge: prepare for zombies
+  - title: "Challenge: prepare for zombies"
