@@ -4,7 +4,7 @@
 
 [[[generic-api-google-maps-key]]]
 
-+ Paste the code below into your HTML file to use the API key in your web page. The code goes immediately before the `</body>` tag. You have to replace `YOUR_API_KEY` part of the URL with the API key you just generated.
++ Make sure you have pasted in the code to use the API key into your HTML file. **Note:** The code goes immediately before the `</body>` tag, and you need to replace the words `YOUR_API_KEY` with the API key you just generated.
 
 ```html
 <script async defer
