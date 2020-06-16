@@ -6,11 +6,15 @@
 
 --- hints ---
 --- hint ---
+
 Put the marker code on a blank line before the ending `}` of the `initMap()` function.
+
 --- /hint ---
 
 --- hint ---
+
 You will need to make sure that the marker has the correct map set. The map in the example is called `mymap` - what is the map called which we have created?
+
 --- /hint ---
 
 --- /hints ---
@@ -25,20 +29,27 @@ At the moment our marker just appears at a fixed location. To make it easier to 
 
 --- hints ---
 --- hint ---
+
 Your function should begin after the end of the `initMap()` function. Look for the closing `}` and begin writing the function code on a blank line below that.
+
 --- /hint ---
 
 --- hint ---
+
 The function in the example is called `name_of_function`. Can you change it to be called `place_marker`?
+
 --- /hint ---
 
 --- hint ---
+
 Put your marker code between the braces `{` and `}`.
+
 ```javascript
 function place_marker(){
 
 }
 ```
+
 --- /hint ---
 
 --- /hints ---

@@ -33,15 +33,19 @@ The variables `location.lat()`, `location.lng()`, and `emoji` contain strings. T
 --- hints ---
 
 --- hint ---
+
 To add a space between the values you will also need to concatenate in a string containing a space which looks like this: `" "`.
+
 --- /hint ---
 
 --- hint ---
+
 Here is how your finished code should look:
 
 ```JavaScript
 console.log(location.lat() + " " + location.lng() + " " + emoji);
 ```
+
 --- /hint ---
 
 

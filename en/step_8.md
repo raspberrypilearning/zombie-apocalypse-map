@@ -35,12 +35,16 @@ Select an emoji
 
 --- hints ---
 --- hint ---
+
 For each emoji, add another line that looks like this:
 `<option value="hospital.png">Hospital</option>`
+
 --- /hint ---
 
 --- hint ---
+
 Make sure that you set the correct file name of each emoji picture as the `value` in the option, and that each emoji picture is saved in the same folder as your `index.html` page.
+
 --- /hint ---
 
 --- /hints ---
@@ -50,6 +54,7 @@ Make sure that you set the correct file name of each emoji picture as the `value
 ```javascript
 var emoji = document.getElementById('***').value;
 ```
+
 To tell the code from where to get the data, you need to replace `'***'` with the `'id'` specified in the `<select>` element.
 
 Add this line of code here:
