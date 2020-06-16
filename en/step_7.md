@@ -46,18 +46,25 @@ function place_marker(location){
 
 --- hints ---
 --- hint ---
+
 Which part of the code contains the fixed position of the marker that is always placed on Cambridge, UK?
+
 --- /hint ---
 
 --- hint ---
+
 What is the name of the variable containing the location data we passed to the `place_marker()` function as an argument?
+
 --- /hint ---
 
 --- hint ---
+
 Replace the fixed latitude and longitude (the part beginning and ending with braces `{ }`) with the name of the variable containing the longitude and latitude of the clicked location.
+
 --- /hint ---
 
 --- hint ---
+
 Here is how your finished code should look:
 
 ```javascript
@@ -66,6 +73,7 @@ var marker = new google.maps.Marker({
   map: zombie_map
 });
 ```
+
 --- /hint ---
 
 --- /hints ---
