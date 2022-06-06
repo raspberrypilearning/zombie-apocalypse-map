@@ -18,13 +18,15 @@ last_tested: 2017-09-01
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: Create a web page
 - title: Obtain a Google Maps API key
+  completion:
+  - engaged
 - title: Display the map
 - title: Place a marker
 - title: Mark where you click
 - title: Choose your icon
 - title: Log your locations
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: prepare for zombies'
